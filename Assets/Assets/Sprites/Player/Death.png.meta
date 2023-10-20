@@ -116,10 +116,10 @@ TextureImporter:
       name: Death_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 5
-        width: 33
-        height: 56
+        x: 0
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +137,10 @@ TextureImporter:
       name: Death_1
       rect:
         serializedVersion: 2
-        x: 221
-        y: 5
-        width: 30
-        height: 51
+        x: 160
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: Death_2
       rect:
         serializedVersion: 2
-        x: 377
-        y: 5
-        width: 34
-        height: 42
+        x: 320
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: Death_3
       rect:
         serializedVersion: 2
-        x: 534
-        y: 5
-        width: 37
-        height: 33
+        x: 480
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +200,10 @@ TextureImporter:
       name: Death_4
       rect:
         serializedVersion: 2
-        x: 680
-        y: 5
-        width: 51
-        height: 14
+        x: 640
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,10 +221,10 @@ TextureImporter:
       name: Death_5
       rect:
         serializedVersion: 2
-        x: 840
-        y: 5
-        width: 51
-        height: 12
+        x: 800
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,7 +241,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1cb295883db4e784fbcfa5ca72bb7f53
     internalID: 0
     vertices: []
     indices: 

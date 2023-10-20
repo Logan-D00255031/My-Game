@@ -104,10 +104,10 @@ TextureImporter:
       name: Fall_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
-        width: 46
-        height: 51
+        x: 0
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,10 +125,10 @@ TextureImporter:
       name: Fall_1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 10
-        width: 41
-        height: 54
+        x: 160
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ace99358f66458d45b58187d0dbd07a4
     internalID: 0
     vertices: []
     indices: 

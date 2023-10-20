@@ -104,10 +104,10 @@ TextureImporter:
       name: Jump_0
       rect:
         serializedVersion: 2
-        x: 58
-        y: 5
-        width: 43
-        height: 56
+        x: 0
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,10 +125,10 @@ TextureImporter:
       name: Jump_1
       rect:
         serializedVersion: 2
-        x: 226
-        y: 5
-        width: 35
-        height: 56
+        x: 160
+        y: 0
+        width: 160
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 130c5945f9e2c39419b0b9be4a806554
     internalID: 0
     vertices: []
     indices: 
