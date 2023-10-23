@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 10f; 
-    public float jumpHeight = 7f; 
+    public float speed = 10f;
+    public float jumpHeight = 7f;
     private Rigidbody2D body;
-    private Animator anim; 
-    private bool grounded; 
-    private bool facingRight = true; 
+    private Animator anim;
+    private bool grounded;
+    private bool attacking = false;
+    private bool facingRight = true;
 
     private void Awake()
     {
@@ -21,18 +22,40 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         float horizontalInput =  Input.GetAxisRaw("Horizontal");
-        body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-        anim.SetFloat("Speed", Mathf.Abs(horizontalInput));
-        
+
+        if (!attacking)
+        {
+            body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
+            anim.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        }
+        else
+        {
+            body.velocity = new Vector2(0 * speed, body.velocity.y);
+            anim.SetFloat("Speed", 0);
+        }
+
         if((horizontalInput > 0 && !facingRight)|| (horizontalInput < 0 && facingRight))
         {
             Flip();
         }
+        
 
         if(Input.GetKey(KeyCode.Space) && grounded)
         {
-        Jump();
+            Jump();
         }
+
+        if(Input.GetKey(KeyCode.E) && grounded)
+        {
+            attacking = true;
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            attacking = false;
+            anim.SetBool("Attack", false);
+        }
+        
     }
 
     private void Jump(){
