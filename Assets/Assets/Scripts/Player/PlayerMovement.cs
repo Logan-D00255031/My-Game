@@ -71,6 +71,13 @@ public class PlayerMovement : MonoBehaviour
         grounded = true;
     }
 
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Ground"))
+        anim.SetBool("Grounded", false);
+        grounded = false;
+    }
+
     private void Flip()
     {
         Vector3 currentScale = gameObject.transform.localScale;
