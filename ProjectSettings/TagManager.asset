@@ -5,16 +5,19 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Player Attack Hitbox
+  - Enemy
+  - Enemy Attack Hitbox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player Attack Hitbox
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - Enemy
+  - Enemy Attack Hitbox
   - 
   - 
   - 
@@ -50,4 +53,10 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 858869561
+    locked: 0
+  - name: Menu
+    uniqueID: 774078441
     locked: 0
